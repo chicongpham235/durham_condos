@@ -53,6 +53,18 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  content_html = "<div>test img</div><div style='font-size:12px'>test</div>";
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/700_wilson.html", "_parent");
   });
@@ -64,6 +76,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "50 Richmond Street and 55 William Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -79,6 +102,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/44_bond.html", "_parent");
   });
@@ -90,6 +124,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "80 Athol Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -105,6 +150,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/600_thornton.html", "_parent");
   });
@@ -116,6 +172,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "131 Taunton Road",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -131,6 +198,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/43_taunton.html", "_parent");
   });
@@ -142,6 +220,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "120 Elgin Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -157,6 +246,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/337_simcoe.html", "_parent");
   });
@@ -168,6 +268,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "363 Simcoe Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -183,6 +294,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("oshawa/condos/454_centre.html", "_parent");
   });
@@ -194,6 +316,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "936 Glen Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -211,6 +344,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("whitby/condos/210_gilbert.html", "_parent");
   });
@@ -222,6 +366,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "650-680 Gordon Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -237,6 +392,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("whitby/condos/52_harveyjohnston", "_parent");
   });
@@ -248,6 +414,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "54 Harvey Johnston Way",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -263,6 +440,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("whitby/condos/711_rossland.html", "_parent");
   });
@@ -274,6 +462,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "712 Rossland Road",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -289,6 +488,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("whitby/condos/360_watson.html", "_parent");
   });
@@ -300,6 +510,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "340 Watson Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -315,6 +536,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("whitby/condos/1600_charles.html", "_parent");
   });
@@ -326,6 +558,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "Petra Way",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -343,6 +586,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/aspensprings.html", "_parent");
   });
@@ -354,6 +608,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "80-84 Aspen Springs",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -369,6 +634,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/21_brookhouse.html", "_parent");
   });
@@ -380,6 +656,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "61 Clarington Blvd",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -395,6 +682,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/1430_gordvinson.html", "_parent");
   });
@@ -406,6 +704,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "290 Liberty Street N",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -421,6 +730,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/70_shipway.html", "_parent");
   });
@@ -432,6 +752,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "305-365 Lakebreeze Ave",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -447,6 +778,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/95_wellington.html", "_parent");
   });
@@ -458,6 +800,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "144 Queen Street",
     clickable: true,
     icon: image,
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -473,6 +826,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/75_shipway.html", "_parent");
   });
@@ -484,6 +848,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "Sidney Lane",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -499,6 +874,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("clarington/condos/375_lakebreeze.html", "_parent");
   });
@@ -510,6 +896,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "Nash Road",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -527,6 +924,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("ajax/condos/44_falby.html", "_parent");
   });
@@ -538,6 +946,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "25, 45 and 70 Cumberland",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -553,6 +972,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("ajax/condos/189_lakedriveway.html", "_parent");
   });
@@ -566,6 +996,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("ajax/condos/2_westney.html", "_parent");
   });
@@ -577,6 +1018,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "92 Church Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -594,6 +1046,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("pickering/condos/1655_pickering.html", "_parent");
   });
@@ -605,6 +1068,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "1530 and 1540 Pickering Parkway",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -620,6 +1094,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("pickering/condos/1525_diefenbaker.html", "_parent");
   });
@@ -631,6 +1116,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "1880 and 1890 Valley Farm Road",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
@@ -646,6 +1142,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("pickering/condos/theesplanade.html", "_parent");
   });
@@ -659,6 +1166,17 @@ var bounds = new google.maps.LatLngBounds();
     icon: "img/condo.png",
   });
 
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
+  });
+
   new google.maps.event.addListener(marker, "click", function () {
     window.open("pickering/condos/1235_bayly.html", "_parent");
   });
@@ -670,6 +1188,17 @@ var bounds = new google.maps.LatLngBounds();
     title: "1210 Radom Street",
     clickable: true,
     icon: "img/condo.png",
+  });
+
+  var infowindow = new google.maps.InfoWindow({
+    content: content_html,
+    map: map,
+  });
+  marker.addListener("mouseover", function () {
+    infowindow.open(map, this);
+  });
+  marker.addListener("mouseout", function () {
+    infowindow.close();
   });
 
   new google.maps.event.addListener(marker, "click", function () {
